@@ -51,15 +51,15 @@ const groups = [
   },
   {
     id: "events",
-    heading: "Taco Tuesday & gatherings",
+    heading: "Gatherings",
     photos: [
-      "Taco Tuesday table spread",
       "Large group celebration table",
       "Birthday sombrero moment",
       "Weekday lunch rush",
     ],
   },
 ];
+
 
 function GalleryPage() {
   return (
