@@ -28,9 +28,6 @@ export const services = [
   "Carry-out",
   "Curbside pickup",
   "Delivery",
-  "Outdoor seating",
-  "Large group reservations",
-  "Daily specials",
-  "Taco Tuesday",
   "Margaritas & Mexican beer",
 ] as const;
+
