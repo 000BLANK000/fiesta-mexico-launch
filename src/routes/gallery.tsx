@@ -4,7 +4,8 @@ import { PhotoPlaceholder } from "@/components/photo-placeholder";
 
 const title = "Gallery | La Fiesta Mexico — Cincinnati, OH";
 const description =
-  "A look at La Fiesta Mexico: our food, our dining room in Forest Park, and nights like Taco Tuesday with friends and family.";
+  "A look at La Fiesta Mexico: our food and our dining room in Forest Park, Cincinnati.";
+
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
