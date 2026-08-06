@@ -55,7 +55,7 @@ export const menu: MenuCategory[] = [
   {
     id: "street-tacos",
     title: "Street Tacos",
-    note: "Corn tortillas, onions, cilantro, lime. Ask about Taco Tuesday.",
+    note: "Corn tortillas, onions, cilantro, lime.",
     items: [
       { name: "Steak (Asada)" },
       { name: "Carnitas" },
