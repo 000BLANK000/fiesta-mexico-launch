@@ -70,10 +70,11 @@ function AboutPage() {
               us back there.
             </p>
             <p>
-              These days you'll find us packed on Taco Tuesday, feeding the lunch rush from the
-              office parks nearby, and setting up long tables for birthdays and graduations. We're
-              grateful for every one of those nights.
+              These days you'll find us feeding the lunch rush from the office parks nearby and
+              setting up long tables for birthdays and graduations. We're grateful for every one of
+              those nights.
             </p>
+
           </div>
         </div>
 
