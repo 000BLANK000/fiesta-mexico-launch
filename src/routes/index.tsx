@@ -170,9 +170,9 @@ function Home() {
               coming over for dinner. A decade later, we're still doing exactly that.
             </p>
             <p className="mt-4 text-muted-foreground">
-              Salsas and sauces are made in-house. Tortillas hit the grill to order. And on Taco
-              Tuesday, the whole neighborhood shows up.
+              Salsas and sauces are made in-house, and tortillas hit the grill to order.
             </p>
+
             <Link
               to="/about"
               className="mt-6 inline-flex text-base font-semibold text-primary hover:underline"
