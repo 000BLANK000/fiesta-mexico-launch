@@ -41,10 +41,10 @@ function ContactPage() {
                 Talk to us directly
               </h2>
               <p className="mt-2 text-sm text-muted-foreground">
-                General questions, reservations and large-group planning are handled by phone so you
-                get a real answer the same day. Food orders go through our ordering site — this page
-                isn't for placing orders.
+                General questions are handled by phone so you get a real answer the same day. Food
+                orders go through our ordering site — this page isn't for placing orders.
               </p>
+
               <div className="mt-5 flex flex-col gap-3 sm:flex-row">
                 <a
                   href={site.phoneHref}
