@@ -99,23 +99,7 @@ const featured = [
   },
 ];
 
-const testimonials = [
-  {
-    quote:
-      "The staff greeted us like regulars on our first visit, and the portions were more than either of us could finish.",
-    attribution: "Paraphrased from recent guest reviews",
-  },
-  {
-    quote:
-      "Margaritas are the real deal and the salsa keeps coming. It's our go-to for a casual family dinner.",
-    attribution: "Paraphrased from recent guest reviews",
-  },
-  {
-    quote:
-      "Clean, bright and welcoming — the kind of neighborhood spot where the food arrives fast and hot.",
-    attribution: "Paraphrased from recent guest reviews",
-  },
-];
+
 
 function Home() {
   return (
