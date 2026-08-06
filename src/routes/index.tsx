@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Clock, MapPin, Phone, Quote, Star, UtensilsCrossed } from "lucide-react";
+import { Clock, MapPin, Phone, UtensilsCrossed } from "lucide-react";
 import { PhotoPlaceholder } from "@/components/photo-placeholder";
 import { addressLine, hours, services, site } from "@/lib/site";
 
