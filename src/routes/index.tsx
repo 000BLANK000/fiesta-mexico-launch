@@ -138,8 +138,9 @@ function Home() {
               </a>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
-              Large groups welcome — call ahead and we'll set the table for you.
+              Call us for questions about your visit or your order.
             </p>
+
           </div>
 
           <div className="grid grid-cols-2 gap-3">
