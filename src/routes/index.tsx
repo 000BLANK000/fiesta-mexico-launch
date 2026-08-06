@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Clock, MapPin, Phone, Quote, Star, UtensilsCrossed } from "lucide-react";
+import { Clock, MapPin, Phone, UtensilsCrossed } from "lucide-react";
 import { PhotoPlaceholder } from "@/components/photo-placeholder";
 import { addressLine, hours, services, site } from "@/lib/site";
 
@@ -53,7 +53,6 @@ export const Route = createFileRoute("/")({
               closes: "21:00",
             },
           ],
-          acceptsReservations: "True",
           hasMenu: "/menu",
           potentialAction: {
             "@type": "OrderAction",
@@ -99,23 +98,7 @@ const featured = [
   },
 ];
 
-const testimonials = [
-  {
-    quote:
-      "The staff greeted us like regulars on our first visit, and the portions were more than either of us could finish.",
-    attribution: "Paraphrased from recent guest reviews",
-  },
-  {
-    quote:
-      "Margaritas are the real deal and the salsa keeps coming. It's our go-to for a casual family dinner.",
-    attribution: "Paraphrased from recent guest reviews",
-  },
-  {
-    quote:
-      "Clean, bright and welcoming — the kind of neighborhood spot where the food arrives fast and hot.",
-    attribution: "Paraphrased from recent guest reviews",
-  },
-];
+
 
 function Home() {
   return (
@@ -154,8 +137,9 @@ function Home() {
               </a>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
-              Large groups welcome — call ahead and we'll set the table for you.
+              Call us for questions about your visit or your order.
             </p>
+
           </div>
 
           <div className="grid grid-cols-2 gap-3">
@@ -185,9 +169,9 @@ function Home() {
               coming over for dinner. A decade later, we're still doing exactly that.
             </p>
             <p className="mt-4 text-muted-foreground">
-              Salsas and sauces are made in-house. Tortillas hit the grill to order. And on Taco
-              Tuesday, the whole neighborhood shows up.
+              Salsas and sauces are made in-house, and tortillas hit the grill to order.
             </p>
+
             <Link
               to="/about"
               className="mt-6 inline-flex text-base font-semibold text-primary hover:underline"
@@ -233,18 +217,17 @@ function Home() {
         </div>
       </section>
 
-      {/* Taco Tuesday */}
+      {/* What we offer */}
       <section className="mx-auto max-w-6xl px-4 py-14 lg:px-8">
         <div className="grid gap-8 rounded-2xl border border-border bg-card p-6 sm:p-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-secondary">
-              Every week
+              How to enjoy it
             </p>
-            <h2 className="mt-3 text-3xl font-semibold sm:text-4xl">Taco Tuesday & daily specials</h2>
+            <h2 className="mt-3 text-3xl font-semibold sm:text-4xl">Dine in or take it home</h2>
             <p className="mt-4 text-muted-foreground">
-              Street tacos all day Tuesday, plus rotating daily specials and weekday lunch plates
-              served until 3:00 PM. Call the restaurant for today's specials — they change with what
-              looks best in the kitchen.
+              Sit down with us on W Kemper Rd, or order for carry-out, curbside or delivery through
+              our ordering site.
             </p>
             <ul className="mt-6 flex flex-wrap gap-2">
               {services.map((s) => (
@@ -257,31 +240,10 @@ function Home() {
               ))}
             </ul>
           </div>
-          <PhotoPlaceholder label="Taco Tuesday spread on the table" ratio="photo" />
+          <PhotoPlaceholder label="Plated dinner on the table" ratio="photo" />
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="bg-muted/40 py-14">
-        <div className="mx-auto max-w-6xl px-4 lg:px-8">
-          <h2 className="text-center text-3xl font-semibold sm:text-4xl">What guests tell us</h2>
-          <p className="mx-auto mt-2 max-w-2xl text-center text-sm text-muted-foreground">
-            Sentiment summarized from public guest reviews and paraphrased in our own words.
-          </p>
-          <ul className="mt-8 grid gap-6 md:grid-cols-3">
-            {testimonials.map((t) => (
-              <li key={t.quote} className="rounded-xl border border-border bg-card p-6">
-                <Quote className="size-6 text-accent" aria-hidden="true" />
-                <blockquote className="mt-4 text-base">{t.quote}</blockquote>
-                <footer className="mt-4 flex items-center gap-2 text-xs text-muted-foreground">
-                  <Star className="size-3.5 text-accent" aria-hidden="true" />
-                  {t.attribution}
-                </footer>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
 
       {/* Hours & location snapshot */}
       <section className="mx-auto max-w-6xl px-4 py-14 lg:px-8">
