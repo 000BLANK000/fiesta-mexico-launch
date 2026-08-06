@@ -44,7 +44,6 @@ const groups = [
       "Dining room from the entrance",
       "Booth seating with family",
       "Bar area and margarita glasses",
-      "Outdoor seating on a summer evening",
       "Storefront on W Kemper Rd",
       "Kitchen team plating an order",
     ],

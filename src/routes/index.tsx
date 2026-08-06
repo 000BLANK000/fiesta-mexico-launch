@@ -53,7 +53,6 @@ export const Route = createFileRoute("/")({
               closes: "21:00",
             },
           ],
-          acceptsReservations: "True",
           hasMenu: "/menu",
           potentialAction: {
             "@type": "OrderAction",
